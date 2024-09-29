@@ -1,9 +1,4 @@
 package com.kata;
-// https://www.classicfm.com/discover-music/occasions/christmas/twelve-12-days-of-christmas-lyrics-meaning/
-// https://www.youtube.com/watch?v=9QPQI5QUs74
-// https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)
-//https://www.youtube.com/watch?v=1UHmQANFtNs
-
 /**
  * "The Twelve Days of Christmas" is an English Christmas carol. A classic example of a cumulative song,
  * the lyrics detail a series of increasingly numerous gifts given to the speaker by their "true love" on each of the
