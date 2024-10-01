@@ -1,0 +1,55 @@
+Clean code guide
+
+* KISS (Keep it Simple, Stupid!): Keep your code simple and straightforward. Avoid unnecessary complexity.
+
+* DRY (Don't Repeat Yourself): Avoid code duplication. Use functions, classes, and modules to abstract common functionality.
+
+* Meaningful Names: Use names that clearly describe the purpose of variables, functions, and classes.
+
+* Comments Should Explain "Why", Not "What": Code should be self-explanatory. Comments should clarify intent or explain complex logic.
+
+* Single Responsibility Principle: Each function or class should have only one specific job.
+
+* Consistent Formatting: Follow consistent indentation, spacing, and naming conventions. This improves readability.
+
+* Small Functions and Classes: Break down large chunks of code into smaller, more manageable pieces.
+
+* Clean Code is Tested Code: Write unit tests to ensure your code works as expected and to prevent regressions.
+
+REFACTORING
+
+"Refactoring is a prerequisite to feature development."
+
+Uncle bob stresses that if you encounter code that's difficult to change, the first step is to refactor it to make the desired change easier. 
+Essentially, you're improving the design of the code before introducing the new functionality.
+
+* Identify the Change: Determine what you need to modify in the code.
+* Assess Difficulty: If the change seems complex or risky due to the code's structure, proceed to refactoring.
+* Refactor: Improve the code's design to make the intended change straightforward.
+* Make the Change: Now that the code is well-structured, implement the change with ease.
+* Test: Thoroughly test the refactored code and the new functionality.
+
+
+1. Why Refactor?
+ * Improve Design: Refactoring helps make code more understandable, flexible, and maintainable.
+ * Find Bugs: Examining code closely during refactoring often reveals hidden bugs or design flaws.
+ * Program Faster: Well-structured code is easier and faster to work with.
+
+2. When to Refactor
+ * The Rule of Three: Don't refactor immediately. If you need the same piece of code a third time, that's a good sign it's time to refactor.
+ * Add a Feature: Refactor existing code to make it easier to add the new functionality.
+ * Fix a Bug: Clean up the code around a bug to understand it better and prevent future issues.
+ * Code Review: Use code reviews as an opportunity to identify areas for refactoring.
+
+3. How to Refactor 
+ * Small Steps: Make tiny, incremental changes and test frequently.
+ * Don't Add Functionality: Focus only on restructuring the code, not on adding new features.
+ * Compile and Test After Every Change: This helps catch errors early.
+
+4. Code Smells (Indicators for Refactoring)
+ * Duplicated Code: The same code structure in multiple places.
+ * Long Method: Methods that are too long and do too many things.
+ * Large Class: Classes with too many responsibilities.
+ * Long Parameter List: Methods with too many parameters.
+ * Switch Statements: Often a sign of complex conditional logic that could be simplified.
+ * Comments: Excessive comments may indicate unclear code.
